@@ -84,6 +84,18 @@ O sistema envia alertas quando:
 
 ## 📸 Dashboard
 
+O sistema possui um dashboard desenvolvido em Node-RED para visualização em tempo real dos dados de luminosidade e alertas.
+
+## 🌐 Acesso ao Dashboard
+
+O dashboard do sistema foi desenvolvido utilizando Node-RED e está disponível via navegador web.
+
+O acesso é realizado através de um **proxy reverso configurado com Apache2**, permitindo que a aplicação seja acessada pela porta padrão HTTP (80), ao invés da porta nativa do Node-RED (1880).
+
+🔗 http://3.12.197.220/dashboard/page2
+
+> ⚠️ O acesso pode estar indisponível dependendo do status da instância ou configurações de segurança.
+
 ### 🏠 Tela Principal
 ![Home](images/dashboard_tela_home.png)
 
@@ -170,7 +182,13 @@ Configurar chat_id para envio dos alertas
 - Broker MQTT (Mosquitto)
 - MySQL configurado
 - Arduino IDE com suporte ao ESP32
+
+---
+  
 👨‍💻 Autor
 Projeto desenvolvido por Glauco Casanova
+
+---
+
 📄 Licença
 Uso acadêmico e educacional
