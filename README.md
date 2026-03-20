@@ -150,6 +150,7 @@ json
 ---
 
 🚀 Como Executar o Projeto
+
 1️⃣ ESP32 (Firmware)
 Abrir o arquivo:
 
@@ -158,6 +159,7 @@ Configurar credenciais:
 Wi-Fi (SSID e senha)
 Broker MQTT (IP do servidor)
 Realizar upload para a placa ESP32
+
 2️⃣ Node-RED
 Importar o fluxo:
 
@@ -166,10 +168,12 @@ Configurar:
 Conexão com broker MQTT
 Conexão com banco MySQL
 Fazer deploy do fluxo
+
 3️⃣ Banco de Dados
 Executar o script:
 
 database/schema.sql
+
 4️⃣ Integração com Telegram
 Criar bot via:
 
