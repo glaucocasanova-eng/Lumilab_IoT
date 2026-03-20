@@ -22,6 +22,12 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 
 ---
 
+## 🧱 Arquitetura do Sistema
+
+![Arquitetura](images/diagrama_arquitetura.png)
+
+---
+
 ## 📁 Estrutura do Projeto
 📦 LumiLab_IoT ┣ 📂 firmware ┃ ┗ 📜 esp32_lumilab.ino ┣ 📂 node-red ┃ ┗ 📜 flow.json ┣ 📂 database ┃ ┗ 📜 schema.sql ┣ 📂 images ┃ ┣ 📸 dashboard_tela_home.png ┃ ┣ 📸 dashboard_tela_eventos.png ┃ ┣ 📸 dashboard_tela_monitoramento_real_ativo.png ┃ ┣ 📸 dashboard_tela_monitoramento_real_standby.png ┃ ┗ 📸 flow_node_red.png ┗ 📜 README.md
 
