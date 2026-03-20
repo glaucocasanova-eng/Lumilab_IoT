@@ -123,6 +123,7 @@ Tópico:
 iot/monitoramento_luz
 
 Exemplo de payload:
+
 json
 {
   "valor_sensor": 85,
