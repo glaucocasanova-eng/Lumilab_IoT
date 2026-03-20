@@ -10,10 +10,14 @@ Este projeto tem como objetivo o monitoramento inteligente da luminosidade em am
 
 O sistema utiliza um sensor LDR conectado a um ESP32 para realizar a coleta contínua de dados de luminosidade. Essas informações são transmitidas via protocolo MQTT para uma aplicação em Node-RED, responsável por:
 
-- Processar os dados em tempo real  
-- Detectar condições fora do padrão (anomalias)  
-- Registrar eventos em banco de dados  
-- Enviar alertas automáticos via Telegram  
+- Processar os dados em tempo real
+    
+- Detectar condições fora do padrão (anomalias)
+    
+- Registrar eventos em banco de dados
+    
+- Enviar alertas automáticos via Telegram
+    
 - Disponibilizar um dashboard para acompanhamento remoto  
 
 A proposta visa automatizar o controle ambiental, reduzir riscos no cultivo e fornecer suporte à tomada de decisão em ambientes laboratoriais e agrícolas.
@@ -39,11 +43,17 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 ## ⚙️ Tecnologias Utilizadas
 
 - ESP32
+  
 - Arduino IDE
+  
 - MQTT (Mosquitto)
+  
 - Node-RED
+  
 - MySQL
+  
 - Telegram Bot API
+  
 - Dashboard Node-RED
 
 ---
@@ -51,10 +61,15 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 ## 🔌 Hardware Utilizado
 
 - ESP32
+  
 - Sensor LDR
+  
 - Display OLED SSD1306
+
 - LED indicador
+  
 - Buzzer
+  
 - Botões de ajuste
 
 ---
@@ -62,11 +77,17 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 ## 📊 Funcionalidades
 
 - Monitoramento em tempo real da luminosidade
+  
 - Detecção de sub-iluminação e sobre-iluminação
+  
 - Modo automático de escuridão (noturno)
+  
 - Alertas inteligentes via Telegram
+  
 - Registro de eventos no banco de dados
+  
 - Dashboard interativo
+  
 - Controle anti-spam de alertas
 
 ---
@@ -76,8 +97,11 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 O sistema envia alertas quando:
 
 - Luminosidade abaixo do mínimo
+  
 - Luminosidade acima do máximo
+  
 - Luz detectada em período noturno
+  
 - Tempo crítico prolongado
 
 ---
@@ -123,8 +147,11 @@ O acesso é realizado através de um **proxy reverso configurado com Apache2**, 
 O banco armazena:
 
 - Eventos de mudança de estado
+  
 - Alertas enviados
+  
 - Tempo crítico acumulado
+  
 - Canal de envio
 
 Script disponível em:
