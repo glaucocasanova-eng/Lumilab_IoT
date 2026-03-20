@@ -57,13 +57,13 @@ const unsigned long intervaloBeep = 3000;
 // =====================================================
 // WIFI
 // =====================================================
-const char* ssid = "Vidal Casanova_2.4G";
-const char* password = "isadorinha";
+const char* ssid = "SUA REDE WIFI";
+const char* password = "SUA SENHA";
 
 // =====================================================
 // MQTT
 // =====================================================
-const char* mqtt_server = "3.12.197.220";
+const char* mqtt_server = "SEU SERVIDOR";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "iot/monitoramento_luz";
 
