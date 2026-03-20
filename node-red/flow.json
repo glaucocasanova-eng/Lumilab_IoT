@@ -516,8 +516,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 540,
-        "y": 1020,
+        "x": 240,
+        "y": 800,
         "wires": [
             [
                 "fn_nav_realtime"
@@ -552,8 +552,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 465,
-        "y": 1060,
+        "x": 165,
+        "y": 840,
         "wires": [
             [
                 "fn_nav_history"
@@ -572,8 +572,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 1020,
+        "x": 520,
+        "y": 800,
         "wires": [
             [
                 "ui_control"
@@ -592,8 +592,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 1060,
+        "x": 510,
+        "y": 840,
         "wires": [
             [
                 "ui_control"
@@ -607,8 +607,8 @@
         "name": "Controle Dashboard",
         "ui": "55084457daf7e507",
         "events": "all",
-        "x": 1100,
-        "y": 1040,
+        "x": 780,
+        "y": 840,
         "wires": [
             []
         ]
@@ -626,8 +626,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 120,
-        "y": 540,
+        "x": 140,
+        "y": 400,
         "wires": [
             [
                 "51f1fc686a75e28b",
@@ -648,7 +648,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 220,
+        "y": 100,
         "wires": [
             [
                 "586394970eef3057"
@@ -685,8 +685,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 320,
+        "x": 690,
+        "y": 180,
         "wires": [
             [
                 "mysql_insert"
@@ -699,8 +699,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "Salvar no MySQL",
-        "x": 1070,
-        "y": 460,
+        "x": 1090,
+        "y": 320,
         "wires": [
             []
         ]
@@ -726,8 +726,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 370,
-        "y": 1300,
+        "x": 530,
+        "y": 980,
         "wires": [
             [
                 "fn_query_history"
@@ -746,8 +746,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 1300,
+        "x": 810,
+        "y": 980,
         "wires": [
             [
                 "mysql_history"
@@ -760,8 +760,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "Consultar histórico",
-        "x": 870,
-        "y": 1300,
+        "x": 1030,
+        "y": 980,
         "wires": [
             [
                 "fn_history_to_table",
@@ -782,8 +782,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
-        "y": 1260,
+        "x": 1230,
+        "y": 940,
         "wires": [
             [
                 "ui_text_last"
@@ -802,8 +802,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
-        "y": 1300,
+        "x": 1240,
+        "y": 980,
         "wires": [
             [
                 "3da8dfdceaeed309"
@@ -830,8 +830,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1310,
-        "y": 1240,
+        "x": 1470,
+        "y": 920,
         "wires": []
     },
     {
@@ -882,8 +882,8 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 1050,
-        "y": 180,
+        "x": 1070,
+        "y": 40,
         "wires": [
             []
         ]
@@ -908,8 +908,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1050,
-        "y": 220,
+        "x": 1070,
+        "y": 80,
         "wires": []
     },
     {
@@ -968,8 +968,8 @@
         "height": "5",
         "className": "",
         "interpolation": "linear",
-        "x": 1070,
-        "y": 260,
+        "x": 1090,
+        "y": 120,
         "wires": [
             []
         ]
@@ -994,8 +994,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1060,
-        "y": 300,
+        "x": 1080,
+        "y": 160,
         "wires": []
     },
     {
@@ -1018,8 +1018,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1060,
-        "y": 340,
+        "x": 1080,
+        "y": 200,
         "wires": []
     },
     {
@@ -1042,8 +1042,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1060,
-        "y": 380,
+        "x": 1080,
+        "y": 240,
         "wires": []
     },
     {
@@ -1066,8 +1066,8 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 1070,
-        "y": 420,
+        "x": 1090,
+        "y": 280,
         "wires": []
     },
     {
@@ -1088,8 +1088,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1320,
-        "y": 1280,
+        "x": 1480,
+        "y": 960,
         "wires": [
             []
         ]
@@ -1150,8 +1150,8 @@
         "height": "6",
         "className": "",
         "interpolation": "linear",
-        "x": 1340,
-        "y": 1340,
+        "x": 1500,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -1168,8 +1168,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 1340,
+        "x": 1280,
+        "y": 1020,
         "wires": [
             [
                 "d9bb6a14a49b9e33"
@@ -1188,8 +1188,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 360,
+        "x": 690,
+        "y": 220,
         "wires": [
             [
                 "mysql_insert"
@@ -1204,8 +1204,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 180,
-        "y": 780,
+        "x": 160,
+        "y": 540,
         "wires": [
             []
         ]
@@ -1222,8 +1222,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 590,
-        "y": 1380,
+        "x": 750,
+        "y": 1060,
         "wires": [
             [
                 "f43d4951595993fe"
@@ -1251,8 +1251,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 350,
-        "y": 1380,
+        "x": 510,
+        "y": 1060,
         "wires": [
             [
                 "e365125d69844b35"
@@ -1265,8 +1265,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "Consultar Eventos",
-        "x": 830,
-        "y": 1380,
+        "x": 990,
+        "y": 1060,
         "wires": [
             [
                 "61bd4889b997f264"
@@ -1285,8 +1285,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 1400,
+        "x": 1250,
+        "y": 1080,
         "wires": [
             [
                 "5ec84a70ac23dac4"
@@ -1311,8 +1311,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1310,
-        "y": 1400,
+        "x": 1470,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -1335,8 +1335,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 180,
-        "y": 840,
+        "x": 160,
+        "y": 600,
         "wires": [
             []
         ]
@@ -1372,8 +1372,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 460,
-        "y": 1100,
+        "x": 160,
+        "y": 880,
         "wires": [
             [
                 "91787b89bbaef9e5"
@@ -1392,8 +1392,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 1100,
+        "x": 510,
+        "y": 880,
         "wires": [
             [
                 "ui_control"
@@ -1431,8 +1431,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 470,
-        "y": 1140,
+        "x": 170,
+        "y": 920,
         "wires": [
             [
                 "491ca25329b98951"
@@ -1451,8 +1451,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 1140,
+        "x": 500,
+        "y": 920,
         "wires": [
             [
                 "ui_control"
@@ -1490,8 +1490,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 470,
-        "y": 1180,
+        "x": 170,
+        "y": 960,
         "wires": [
             [
                 "491ca25329b98951"
@@ -1529,8 +1529,8 @@
         "enablePointerup": false,
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
-        "x": 470,
-        "y": 1220,
+        "x": 170,
+        "y": 1000,
         "wires": [
             [
                 "491ca25329b98951"
@@ -1542,19 +1542,18 @@
         "type": "function",
         "z": "flow_lumilab",
         "name": "Analisa Alerta",
-        "func": "let status = String(msg.payload.status || \"DESCONHECIDO\");\nlet valor = Number(msg.payload.valor_sensor || msg.payload.valor || 0);\nlet agora = Date.now();\n\n// intervalo entre reenvios\nlet intervaloReenvio = 2 * 60 * 1000; // 2 minutos\n\n// estados salvos\nlet inicioAnomalia = flow.get(\"inicioAnomalia\") || 0;\nlet ultimoEnvio = flow.get(\"ultimoEnvioAlerta\") || 0;\nlet ultimoStatus = flow.get(\"ultimoStatusAlerta\") || \"NORMAL\";\nlet repeticoes = flow.get(\"repeticoesAlerta\") || 0;\n\n// condição de anomalia\nlet anomalia = (status === \"BAIXO\" || status === \"ALTO\");\n\n// se voltou ao normal, reseta tudo\nif (!anomalia) {\n    flow.set(\"inicioAnomalia\", 0);\n    flow.set(\"ultimoEnvioAlerta\", 0);\n    flow.set(\"ultimoStatusAlerta\", status);\n    flow.set(\"repeticoesAlerta\", 0);\n\n    msg.payload = {\n        alerta: false,\n        status: status,\n        valor: valor,\n        repeticoes_5min: 0,\n        tempo_critico_seg: 0\n    };\n    return msg;\n}\n\n// entrou em anomalia agora\nif (inicioAnomalia === 0 || ultimoStatus !== status) {\n    inicioAnomalia = agora;\n    ultimoEnvio = agora;\n    repeticoes = 1;\n\n    flow.set(\"inicioAnomalia\", inicioAnomalia);\n    flow.set(\"ultimoEnvioAlerta\", ultimoEnvio);\n    flow.set(\"ultimoStatusAlerta\", status);\n    flow.set(\"repeticoesAlerta\", repeticoes);\n\n    msg.payload = {\n        alerta: true,\n        status: status,\n        valor: valor,\n        repeticoes_5min: repeticoes,\n        tempo_critico_seg: 0\n    };\n    return msg;\n}\n\n// continua em anomalia\nlet tempoCriticoSeg = Math.floor((agora - inicioAnomalia) / 1000);\n\n// calcula repetições aproximadas por janela\nrepeticoes = Math.floor((agora - inicioAnomalia) / (5 * 1000)) + 1;\n\n// reenviar após intervalo\nif ((agora - ultimoEnvio) >= intervaloReenvio) {\n    flow.set(\"ultimoEnvioAlerta\", agora);\n    flow.set(\"repeticoesAlerta\", repeticoes);\n\n    msg.payload = {\n        alerta: true,\n        status: status,\n        valor: valor,\n        repeticoes_5min: repeticoes,\n        tempo_critico_seg: tempoCriticoSeg\n    };\n    return msg;\n}\n\n// ainda não chegou a hora de reenviar\nmsg.payload = {\n    alerta: false,\n    status: status,\n    valor: valor,\n    repeticoes_5min: repeticoes,\n    tempo_critico_seg: tempoCriticoSeg\n};\n\nreturn msg;",
+        "func": "let status = String(msg.payload.status || \"DESCONHECIDO\");\nlet valor = Number(msg.payload.valor_sensor || msg.payload.valor || 0);\nlet periodo = String(msg.payload.periodo || \"MONITORAMENTO\");\nlet alertaNoturno = msg.payload.alerta === true;\nlet statusNoturno = String(msg.payload.status_noturno || \"N/A\");\nlet agora = Date.now();\n\n// intervalo entre reenvios\nlet intervaloReenvio = 2 * 60 * 1000; // 2 minutos\n\n// estados salvos\nlet inicioAnomalia = flow.get(\"inicioAnomalia\") || 0;\nlet ultimoEnvio = flow.get(\"ultimoEnvioAlerta\") || 0;\nlet ultimaChave = flow.get(\"ultimaChaveAlerta\") || \"NORMAL\";\nlet repeticoes = flow.get(\"repeticoesAlerta\") || 0;\n\n// define condição de alerta\nlet anomalia = false;\nlet chaveAtual = \"NORMAL\";\nlet motivo = \"\";\n\n// ===============================\n// REGRA DO PROJETO\n// ===============================\n// À noite: só alertar por luz indevida\n// De dia: alertar por BAIXO ou ALTO\nif (periodo === \"ESCURIDAO\") {\n    if (alertaNoturno && statusNoturno === \"LUZ INDEVIDA\") {\n        anomalia = true;\n        chaveAtual = \"LUZ_INDEVIDA\";\n        motivo = \"Luz indevida no período de escuridão\";\n    }\n} else {\n    if (status === \"BAIXO\") {\n        anomalia = true;\n        chaveAtual = \"BAIXO\";\n        motivo = \"Condição crítica detectada\";\n    } else if (status === \"ALTO\") {\n        anomalia = true;\n        chaveAtual = \"ALTO\";\n        motivo = \"Condição crítica detectada\";\n    }\n}\n\n// se não houver anomalia, reseta\nif (!anomalia) {\n    flow.set(\"inicioAnomalia\", 0);\n    flow.set(\"ultimoEnvioAlerta\", 0);\n    flow.set(\"ultimaChaveAlerta\", \"NORMAL\");\n    flow.set(\"repeticoesAlerta\", 0);\n\n    msg.payload = {\n        alerta: false,\n        status: status,\n        valor: valor,\n        repeticoes_5min: 0,\n        tempo_critico_seg: 0,\n        motivo: \"\"\n    };\n    return msg;\n}\n\n// primeira ocorrência ou mudança de tipo de alerta\nif (inicioAnomalia === 0 || chaveAtual !== ultimaChave) {\n    inicioAnomalia = agora;\n    ultimoEnvio = agora;\n    repeticoes = 1;\n\n    flow.set(\"inicioAnomalia\", inicioAnomalia);\n    flow.set(\"ultimoEnvioAlerta\", ultimoEnvio);\n    flow.set(\"ultimaChaveAlerta\", chaveAtual);\n    flow.set(\"repeticoesAlerta\", repeticoes);\n\n    msg.payload = {\n        alerta: true,\n        status: chaveAtual === \"LUZ_INDEVIDA\" ? \"CRITICO\" : status,\n        valor: valor,\n        repeticoes_5min: repeticoes,\n        tempo_critico_seg: 0,\n        motivo: motivo\n    };\n    return msg;\n}\n\n// continua em anomalia\nlet tempoCriticoSeg = Math.floor((agora - inicioAnomalia) / 1000);\nrepeticoes = Math.floor((agora - inicioAnomalia) / (5 * 1000)) + 1;\n\n// reenviar após intervalo\nif ((agora - ultimoEnvio) >= intervaloReenvio) {\n    flow.set(\"ultimoEnvioAlerta\", agora);\n    flow.set(\"repeticoesAlerta\", repeticoes);\n\n    msg.payload = {\n        alerta: true,\n        status: chaveAtual === \"LUZ_INDEVIDA\" ? \"CRITICO\" : status,\n        valor: valor,\n        repeticoes_5min: repeticoes,\n        tempo_critico_seg: tempoCriticoSeg,\n        motivo: motivo\n    };\n    return msg;\n}\n\n// ainda não chegou a hora de reenviar\nmsg.payload = {\n    alerta: false,\n    status: chaveAtual === \"LUZ_INDEVIDA\" ? \"CRITICO\" : status,\n    valor: valor,\n    repeticoes_5min: repeticoes,\n    tempo_critico_seg: tempoCriticoSeg,\n    motivo: motivo\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 400,
+        "x": 680,
+        "y": 260,
         "wires": [
             [
-                "132334ce95ca4eb3",
-                "c3cd11eee7a1335a"
+                "132334ce95ca4eb3"
             ]
         ]
     },
@@ -1579,8 +1578,8 @@
         "topic": "",
         "payload": "{   \"alerta\": true,   \"status\": \"BAIXO\",   \"valor\": 45,   \"repeticoes_5min\": 3,   \"tempo_critico_seg\": 120,   \"motivo\": \"Teste manual\" }",
         "payloadType": "str",
-        "x": 230,
-        "y": 720,
+        "x": 210,
+        "y": 480,
         "wires": [
             []
         ]
@@ -1597,8 +1596,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1380,
-        "y": 520,
+        "x": 1400,
+        "y": 380,
         "wires": [
             []
         ]
@@ -1614,8 +1613,8 @@
         "hasinput": true,
         "inputs": 1,
         "handleallupdates": false,
-        "x": 210,
-        "y": 980,
+        "x": 1310,
+        "y": 820,
         "wires": [
             [],
             []
@@ -1629,12 +1628,10 @@
         "bot": "3bab2859ab5c7b44",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 520,
+        "x": 1210,
+        "y": 380,
         "wires": [
-            [
-                "732827fb3560f430"
-            ]
+            []
         ]
     },
     {
@@ -1649,13 +1646,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 480,
+        "x": 870,
+        "y": 340,
         "wires": [
             [
                 "0866640399418f31",
-                "e448a5de1ee190ed",
-                "632e99ac3538447e"
+                "e448a5de1ee190ed"
             ]
         ]
     },
@@ -1674,12 +1670,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 650,
-        "y": 480,
+        "x": 670,
+        "y": 340,
         "wires": [
             [
-                "71aa92ebd69dac73",
-                "c2bfc6b93d1981a8"
+                "71aa92ebd69dac73"
             ]
         ]
     },
@@ -1695,8 +1690,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 540,
+        "x": 690,
+        "y": 400,
         "wires": [
             [
                 "f275c47dd1e27cfe"
@@ -1709,8 +1704,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "Salvar Alerta Enviado",
-        "x": 920,
-        "y": 540,
+        "x": 940,
+        "y": 400,
         "wires": [
             []
         ]
@@ -1732,8 +1727,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 900,
+        "x": 270,
+        "y": 740,
         "wires": [
             [
                 "1c6ec2cf8836071e"
@@ -1752,8 +1747,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 900,
+        "x": 520,
+        "y": 740,
         "wires": [
             [
                 "4fe6f229797b7f09"
@@ -1766,8 +1761,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "Consultar Alertas",
-        "x": 710,
-        "y": 900,
+        "x": 770,
+        "y": 740,
         "wires": [
             [
                 "40e4376f550b96c2",
@@ -1787,8 +1782,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 940,
-        "y": 900,
+        "x": 1000,
+        "y": 740,
         "wires": [
             [
                 "c904775dbc247bd1"
@@ -1813,8 +1808,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1150,
-        "y": 900,
+        "x": 1210,
+        "y": 740,
         "wires": [
             []
         ]
@@ -1831,8 +1826,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 540,
+        "x": 370,
+        "y": 400,
         "wires": [
             [
                 "fn_prepare_all",
@@ -1860,8 +1855,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 600,
+        "x": 680,
+        "y": 460,
         "wires": [
             [
                 "69a9c1fc79e37812"
@@ -1886,8 +1881,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 880,
-        "y": 600,
+        "x": 900,
+        "y": 460,
         "wires": [
             []
         ]
@@ -1904,8 +1899,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 640,
+        "x": 700,
+        "y": 500,
         "wires": [
             [
                 "f06738c912d0259b"
@@ -1930,8 +1925,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 910,
-        "y": 640,
+        "x": 930,
+        "y": 500,
         "wires": [
             []
         ]
@@ -1948,8 +1943,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 680,
+        "x": 680,
+        "y": 540,
         "wires": [
             [
                 "936de52d79ecd76f"
@@ -1974,8 +1969,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 890,
-        "y": 700,
+        "x": 910,
+        "y": 560,
         "wires": [
             []
         ]
@@ -1995,8 +1990,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 640,
-        "y": 760,
+        "x": 660,
+        "y": 620,
         "wires": [
             [
                 "51ca850e61c426d6",
@@ -2016,8 +2011,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 760,
+        "x": 1240,
+        "y": 620,
         "wires": [
             [
                 "0866640399418f31"
@@ -2036,8 +2031,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 820,
+        "x": 980,
+        "y": 680,
         "wires": [
             []
         ]
@@ -2054,8 +2049,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
-        "y": 760,
+        "x": 940,
+        "y": 620,
         "wires": [
             [
                 "8bbeecbd87c729dc"
@@ -2072,8 +2067,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 180,
-        "y": 1500,
+        "x": 1340,
+        "y": 40,
         "wires": [
             [
                 "e822c9ad5304e152"
@@ -2087,8 +2082,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 650,
-        "y": 1500,
+        "x": 1810,
+        "y": 40,
         "wires": []
     },
     {
@@ -2103,8 +2098,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 1500,
+        "x": 1600,
+        "y": 40,
         "wires": [
             [
                 "aba7dc4fda3ee626"
@@ -2123,8 +2118,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 440,
+        "x": 320,
+        "y": 300,
         "wires": [
             []
         ]
@@ -2139,8 +2134,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 160,
-        "y": 1560,
+        "x": 1320,
+        "y": 80,
         "wires": [
             [
                 "17f3a174a90537ee"
@@ -2159,8 +2154,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 1560,
+        "x": 1540,
+        "y": 80,
         "wires": [
             [
                 "7b7b9041f265c0ad"
@@ -2174,8 +2169,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 590,
-        "y": 1560,
+        "x": 1750,
+        "y": 80,
         "wires": []
     },
     {
@@ -2188,8 +2183,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 160,
-        "y": 1680,
+        "x": 1300,
+        "y": 180,
         "wires": [
             [
                 "9eaf2a857624b46d"
@@ -2203,8 +2198,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1030,
-        "y": 1680,
+        "x": 2050,
+        "y": 180,
         "wires": []
     },
     {
@@ -2219,8 +2214,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 1680,
+        "x": 1500,
+        "y": 180,
         "wires": [
             [
                 "dced382b5f68ba83"
@@ -2233,8 +2228,8 @@
         "z": "flow_lumilab",
         "mydb": "mysql_iot_cfg",
         "name": "",
-        "x": 610,
-        "y": 1680,
+        "x": 1690,
+        "y": 180,
         "wires": [
             [
                 "e94672dae7b7173e"
@@ -2253,8 +2248,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 1680,
+        "x": 1880,
+        "y": 180,
         "wires": [
             [
                 "38170fff9ff7ea2f"
@@ -2273,8 +2268,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 1620,
+        "x": 1540,
+        "y": 120,
         "wires": [
             [
                 "cad1384b9719707a"
@@ -2291,8 +2286,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 160,
-        "y": 1620,
+        "x": 1320,
+        "y": 120,
         "wires": [
             [
                 "bf5209c16ae41250"
@@ -2306,72 +2301,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 610,
-        "y": 1620,
-        "wires": []
-    },
-    {
-        "id": "c3cd11eee7a1335a",
-        "type": "debug",
-        "z": "flow_lumilab",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 340,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "c2bfc6b93d1981a8",
-        "type": "debug",
-        "z": "flow_lumilab",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "632e99ac3538447e",
-        "type": "debug",
-        "z": "flow_lumilab",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1340,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "732827fb3560f430",
-        "type": "debug",
-        "z": "flow_lumilab",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1420,
-        "y": 620,
+        "x": 1770,
+        "y": 120,
         "wires": []
     },
     {
@@ -2386,12 +2317,12 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1000,
-        "y": 980,
+        "x": 1060,
+        "y": 820,
         "wires": []
     },
     {
-        "id": "ccca242adf1c246e",
+        "id": "f1558765d1b83ce6",
         "type": "global-config",
         "env": [],
         "modules": {
