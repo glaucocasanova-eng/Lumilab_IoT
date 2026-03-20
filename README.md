@@ -6,14 +6,17 @@ Projeto desenvolvido para monitoramento inteligente de luminosidade em ambientes
 
 ## 📌 Visão Geral
 
-O sistema utiliza um sensor LDR conectado a um ESP32 para medir a luminosidade do ambiente.  
-Os dados são enviados via MQTT para um servidor Node-RED, que:
+Este projeto tem como objetivo o monitoramento inteligente da luminosidade em ambientes de cultivo de mudas de plantas in vitro, garantindo condições ideais para o desenvolvimento saudável das culturas.
 
-- Processa os dados
-- Detecta anomalias
-- Registra eventos em banco de dados
-- Envia alertas via Telegram
-- Exibe tudo em dashboard web
+O sistema utiliza um sensor LDR conectado a um ESP32 para realizar a coleta contínua de dados de luminosidade. Essas informações são transmitidas via protocolo MQTT para uma aplicação em Node-RED, responsável por:
+
+- Processar os dados em tempo real  
+- Detectar condições fora do padrão (anomalias)  
+- Registrar eventos em banco de dados  
+- Enviar alertas automáticos via Telegram  
+- Disponibilizar um dashboard para acompanhamento remoto  
+
+A proposta visa automatizar o controle ambiental, reduzir riscos no cultivo e fornecer suporte à tomada de decisão em ambientes laboratoriais e agrícolas.
 
 ---
 
