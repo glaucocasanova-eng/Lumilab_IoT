@@ -1,4 +1,4 @@
-🌡️ Sistema IoT de Monitoramento Ambiental com ESP32 + MQTT + Node-RED
+🌡️ LumiLab_IoT - Sistema IoT de Monitoramento Ambiental com ESP32 + MQTT + Node-RED
 
 Projeto desenvolvido para monitoramento inteligente de luminosidade em ambientes, com envio de alertas automáticos e visualização em dashboard em tempo real.
 
