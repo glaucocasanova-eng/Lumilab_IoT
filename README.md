@@ -29,8 +29,6 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 
 ---
 
-## 🧱 Arquitetura do Sistema
-
 ![Arquitetura](images/diagrama_arquitetura.png)
 
 ---
