@@ -119,17 +119,20 @@ database/schema.sql
 
 ## 📡 Comunicação MQTT
 
-**Tópico:**
+Tópico:
 iot/monitoramento_luz
 
-**Exemplo de payload:**
-```json
+Exemplo de payload:
+json
 {
   "valor_sensor": 85,
   "status": "BAIXO",
   "periodo": "ESCURIDAO",
   "alerta": true
 }
+
+---
+
 🚀 Como Executar o Projeto
 1️⃣ ESP32 (Firmware)
 Abrir o arquivo:
