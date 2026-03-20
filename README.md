@@ -131,24 +131,41 @@ iot/monitoramento_luz
   "alerta": true
 }
 🚀 Como Executar o Projeto
-1. ESP32
-Abrir firmware/esp32_lumilab.ino
-Configurar Wi-Fi e MQTT
-Enviar para a placa
-2. Node-RED
-Importar node-red/flow.json
-Configurar conexão com MQTT
-Configurar banco MySQL
-3. Banco de Dados
-Executar database/schema.sql
-4. Telegram
-Criar bot com @BotFather
+1️⃣ ESP32 (Firmware)
+Abrir o arquivo:
+
+firmware/esp32_lumilab.ino
+Configurar credenciais:
+Wi-Fi (SSID e senha)
+Broker MQTT (IP do servidor)
+Realizar upload para a placa ESP32
+2️⃣ Node-RED
+Importar o fluxo:
+
+node-red/flow.json
+Configurar:
+Conexão com broker MQTT
+Conexão com banco MySQL
+Fazer deploy do fluxo
+3️⃣ Banco de Dados
+Executar o script:
+
+database/schema.sql
+4️⃣ Integração com Telegram
+Criar bot via:
+
+@BotFather
 Inserir token no Node-RED
-🧠 Melhorias Futuras
-Aplicativo mobile
-Integração com IA para previsão
-Multi-sensores
-Controle automático de iluminação
+Configurar chat_id para envio dos alertas
+
+---
+
+## ⚠️ Pré-requisitos
+
+- Node-RED instalado
+- Broker MQTT (Mosquitto)
+- MySQL configurado
+- Arduino IDE com suporte ao ESP32
 👨‍💻 Autor
 Projeto desenvolvido por Glauco Casanova
 📄 Licença
