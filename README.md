@@ -188,7 +188,8 @@ Configurar chat_id para envio dos alertas
 
 ---
   
-👨‍💻 Autor
+👨‍💻 Autor:
+
 Projeto desenvolvido por Glauco Casanova
 
 ---
