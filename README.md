@@ -96,15 +96,18 @@ O acesso é realizado através de um **proxy reverso configurado com Apache2**, 
 
 > ⚠️ O acesso pode estar indisponível dependendo do status da instância ou configurações de segurança.
 
-### 🏠 Tela Principal
-![Home](images/dashboard_tela_home.png)
 
-### 📊 Monitoramento em Tempo Real
-![Monitoramento Ativo](images/dashboard_tela_monitoramento_real_ativo.png)
 
-![Stand-by](images/dashboard_tela_monitoramento_real_standby.png)
+### 🖥️ Tela Principal
+
+![Tela Principal](images/dashboard_tela_home.png)
+
+### 📈 Monitoramento em Tempo Real
+
+![Monitoramento](images/dashboard_tela_monitoramento_real_ativo.png)
 
 ### 📋 Histórico de Eventos
+
 ![Eventos](images/dashboard_tela_eventos.png)
 
 ---
