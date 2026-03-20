@@ -114,7 +114,7 @@ O acesso é realizado através de um **proxy reverso configurado com Apache2**, 
 
 ## 🔄 Fluxo Node-RED
 
-![Fluxo Node-RED](images/flow_node_red.png)
+![Fluxo Node-RED](images/flow_node-red.png)
 
 ---
 
