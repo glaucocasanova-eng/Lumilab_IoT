@@ -155,18 +155,25 @@ json
 Abrir o arquivo:
 
 firmware/esp32_lumilab.ino
+
 Configurar credenciais:
+
 Wi-Fi (SSID e senha)
+
 Broker MQTT (IP do servidor)
+
 Realizar upload para a placa ESP32
 
 2️⃣ Node-RED
 Importar o fluxo:
 
 node-red/flow.json
+
 Configurar:
 Conexão com broker MQTT
+
 Conexão com banco MySQL
+
 Fazer deploy do fluxo
 
 3️⃣ Banco de Dados
@@ -178,7 +185,9 @@ database/schema.sql
 Criar bot via:
 
 @BotFather
+
 Inserir token no Node-RED
+
 Configurar chat_id para envio dos alertas
 
 ---
@@ -186,8 +195,11 @@ Configurar chat_id para envio dos alertas
 ## ⚠️ Pré-requisitos
 
 - Node-RED instalado
+
 - Broker MQTT (Mosquitto)
+  
 - MySQL configurado
+  
 - Arduino IDE com suporte ao ESP32
 
 ---
