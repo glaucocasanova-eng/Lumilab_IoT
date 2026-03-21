@@ -102,6 +102,70 @@ Os LEDs e o buzzer são controlados por GPIOs do ESP32, atuando como indicadores
 
 ## 🔌 Esquema de Ligações
 
+![Ligações](images/Esquema_ligacoes.png)
+
+🔌 🔧 PASSO A PASSO (COM LDR PURO)
+
+🟢 1. Alimentação (base do circuito)
+
+No ESP32:
+3V3 →
+VCC do OLED
+uma ponta do LDR
+GND →
+GND do OLED
+GND do buzzer
+GND dos LEDs
+GND dos botões
+resistor do LDR
+
+🌗 2. LDR
+
+👉 Aqui está o ponto mais importante do seu projeto
+Montagem do divisor de tensão:
+
+3.3V ─── LDR ───┬──→ GPIO 4
+                │
+             10kΩ
+                │
+               GND
+Passo a passo no Wokwi:
+Coloque o LDR
+Ligue:
+uma perna → 3.3V
+outra perna → uma linha livre
+Coloque o resistor 10kΩ
+uma ponta → mesma linha do LDR
+outra ponta → GND
+Agora:
+essa mesma linha → GPIO 4
+✔️ Resultado:
+GPIO 4 recebe sinal analógico
+Quanto mais luz → muda a tensão
+📺 3. OLED
+GPIO 8 → SDA
+GPIO 9 → SCL
+VCC → 3.3V
+GND → GND
+🔊 4. BUZZER
+GPIO 5 → positivo
+GND → negativo
+
+💡 5. LED VERDE
+
+GPIO 6 → resistor 220Ω → LED → GND
+
+🔴 6. LED VERMELHO
+
+GPIO 7 → resistor 220Ω → LED → GND
+
+🔘 7. BOTÃO MAIS
+
+GPIO 16 → botão → GND
+
+🔘 8. BOTÃO MENOS
+
+GPIO 15 → botão → GND
 
 ## 📊 Funcionalidades
 
