@@ -102,7 +102,7 @@ Os LEDs e o buzzer são controlados por GPIOs do ESP32, atuando como indicadores
 
 ## 🔌 Esquema de Ligações
 
-![Ligações](images/Esquema_ligacoes.png)
+![Ligações](images/Esquemaligacoes.png)
 
 🔌 🔧 PASSO A PASSO (COM LDR PURO)
 
