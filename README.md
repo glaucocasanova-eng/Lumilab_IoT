@@ -104,9 +104,14 @@ Os LEDs e o buzzer são controlados por GPIOs do ESP32, atuando como indicadores
 
 ![Ligações](images/esquema_ligacoes.png)
 
-🔌 🔧 PASSO A PASSO (COM LDR PURO)
+«⚠️ Observação sobre o sensor LDR:
+Na simulação realizada na plataforma Wokwi, foi utilizado um módulo de LDR, que já possui circuito interno de condicionamento de sinal.
 
-🟢 1. Alimentação (base do circuito)
+Entretanto, no projeto físico original, o sensor foi implementado utilizando um LDR discreto associado a um resistor de 10kΩ em configuração de divisor de tensão, permitindo a leitura analógica pelo ESP32.»
+
+🔌 🔧 PASSO A PASSO
+
+🟢 1. Alimentação
 
 No ESP32:
 3V3 →
