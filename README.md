@@ -121,7 +121,6 @@ resistor do LDR
 
 🌗 2. LDR
 
-👉 Aqui está o ponto mais importante do seu projeto
 Montagem do divisor de tensão:
 
 3.3V ─── LDR ───┬──→ GPIO 4
@@ -129,7 +128,7 @@ Montagem do divisor de tensão:
              10kΩ
                 │
                GND
-Passo a passo no Wokwi:
+
 Coloque o LDR
 Ligue:
 uma perna → 3.3V
@@ -142,12 +141,16 @@ essa mesma linha → GPIO 4
 ✔️ Resultado:
 GPIO 4 recebe sinal analógico
 Quanto mais luz → muda a tensão
+
 📺 3. OLED
+
 GPIO 8 → SDA
 GPIO 9 → SCL
 VCC → 3.3V
 GND → GND
+
 🔊 4. BUZZER
+
 GPIO 5 → positivo
 GND → negativo
 
