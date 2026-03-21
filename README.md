@@ -72,6 +72,37 @@ ESP32 (Sensor LDR) ↓ MQTT Broker ↓ Node-RED ↙       ↘ MySQL     Telegram
 
 ---
 
+## 🧠 Funcionamento
+
+O sistema realiza a leitura da luminosidade através do sensor LDR e, com base nos valores obtidos:
+Aciona LEDs indicando o nível de iluminação
+Emite sinal sonoro via buzzer
+Exibe informações no display OLED
+Permite interação através de botões
+
+## Explicação Técnica
+
+Sensor LDR
+
+O sensor de luminosidade foi implementado utilizando um módulo LDR, responsável por fornecer um sinal analógico proporcional à intensidade luminosa.
+
+Comunicação I2C
+
+O display OLED utiliza o protocolo I2C, reduzindo o número de pinos necessários para comunicação, utilizando apenas SDA e SCL.
+
+Entradas Digitais
+
+Os botões foram configurados utilizando o modo INPUT_PULLUP, dispensando resistores externos.
+
+Saídas
+
+Os LEDs e o buzzer são controlados por GPIOs do ESP32, atuando como indicadores do sistema.
+
+---
+
+## 🔌 Esquema de Ligações
+
+
 ## 📊 Funcionalidades
 
 - Monitoramento em tempo real da luminosidade
